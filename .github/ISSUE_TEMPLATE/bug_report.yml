@@ -1,0 +1,68 @@
+
+name: Bug Report
+description: Report a bug in Graph Quest
+title: "[BUG] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Report a problem so the development team can investigate.
+
+  - type: input
+    id: summary
+    attributes:
+      label: Bug summary
+      description: Briefly describe the problem.
+      placeholder: Dijkstra returns an incorrect path
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Describe how to reproduce the bug.
+      placeholder: |
+        1. Open the game
+        2. Select a starting node
+        3. Find the shortest path
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What actually happened?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Bug severity
+      options:
+        - Low
+        - Medium
+        - High
+        - Critical
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include operating system, Node.js version, and other relevant details.
+    validations:
+      required: false
