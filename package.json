@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node tests/test-dijkstra.js && node tests/test-bfs.js"
+    "test": "node tests/test-dijkstra.js && node tests/test-bfs.js && node tests/test-use-cases.js"
   },
   "keywords": [],
   "author": "",
