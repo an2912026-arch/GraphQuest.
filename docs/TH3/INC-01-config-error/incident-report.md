@@ -37,7 +37,13 @@ thiếu cấu hình API_URL.
 - Bổ sung unit test.
 - Không ghi thông tin bí mật vào log.
 
+
 ## 8. Rollback và thời gian
-- Rollback: Chưa kiểm chứng.
-- Thời gian phát hiện: Chưa ghi nhận.
-- Thời gian khôi phục: Chưa đo.
+- Phiên bản kiểm thử rollback: v1.0.0
+- Phương pháp: Git worktree
+- Kiểm thử: npm test
+- Kết quả: PASS
+- Minh chứng: docs/TH3/evidence/rollback-test.txt
+- Thời gian phát hiện: Chưa đo
+- Thời gian khôi phục: Chưa đo
+- Ghi chú: Đã kiểm thử phiên bản cũ, chưa diễn tập chuyển đổi dịch vụ thực tế.
