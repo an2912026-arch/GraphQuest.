@@ -15,3 +15,12 @@ All notable changes to this project will be documented in this file.
 - Add GitHub Actions CI workflow.
 - Add environment configuration example.
 - Add dependency management configuration.
+## [1.1.0] - release cần đối chiếu GitHub
+### Changed
+- CR-01: bổ sung tìm đường theo BFS trong `src/search.js`.
+- Có kiểm thử chấp nhận `tests/test-cr-01-search.js`.
+- Ghi chú: ngày phát hành, tag và GitHub Release cần đối chiếu repository thực tế.
+
+## [Unreleased] - bổ sung hỗ trợ nộp bài
+- README, CLI tương tác, mở rộng npm test và bản nháp báo cáo Final.
+- Chưa có tích hợp thanh toán sandbox.
