@@ -1,11 +1,11 @@
-
 {
   "name": "graphquest",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "node tests/test-dijkstra.js && node tests/test-bfs.js && node tests/test-use-cases.js && node tests/test-logging.js"
+    "test": "node tests/test-dijkstra.js && node tests/test-bfs.js && node tests/test-use-cases.js && node tests/test-logging.js && node tests/test-cr-01-search.js && node tests/test-inc-01.js",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
